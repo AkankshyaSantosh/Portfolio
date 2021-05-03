@@ -1,0 +1,159 @@
+<!--  Progression 1 - Change the sample text to your information.
+  1.a -> Change your Name. Line number 33
+  1.b -> Change your information. Starting from line number 35 
+  1.c -> Change the achievements to your achievements. Starts from line number 98
+  1.d -> Change the hobbies to your hobbies(It would be better if you keep images). Starts from line number 112.
+  1.e -> Change the contact information. Line number 132  -->
+
+<!-- Progression 2 - Update the link of your projects. Starts from line number 58.
+      You have done your projects, time to give the link of all the projects.
+      Do you find the anchor tags that says "SEE PROJECT"? Is the href attribute empty?
+      Give the Github page link of all your projects in the empty href's-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <ul id="nav">
+    <li><a href="#home">HOME</a></li>
+    <li><a href="#work">WORK</a></li>
+    <li><a href="#achievements">ACHIEVEMENTS</a></li>
+    <li><a href="#hobbies">HOBBIES</a></li>
+    <li><a href="#contact">CONTACT</a></li>
+  </ul>
+  <section id="home" class="flex-centered">
+    <div id="home-text">
+      <h1>Akankshya Santosh</h1>
+      <p>
+        I am a ProGrad Junior. Born and brought up in Banglore, Karnataka,
+        I am now studying in 8th Grade at Ryan International School. Just
+        so you know, I want to become a Marine Zoologist. On
+        one side, I love exploring different places.My favorite animal is a Tiger as in my profile.
+        On the other side,
+        I love using my creative mind to paint and write stories.
+        One of my favorite hobby is dancing too!
+        <br />
+        <br />
+
+        Fun and super cool with a contagious disease called AWESOME - That’s
+        who I am.
+      </p>
+      <div class="button heading">LET'S TALK!</div>
+    </div>
+    <div id="home-image" class="flex-centered">
+      <img src="https://images.unsplash.com/photo-1561731216-c3a4d99437d5?ixlib=rb-1.2.1&w=1000&q=80" alt="photo" />
+    </div>
+  </section>
+  <section id="work" class="flex-centered">
+    <h1>My Work</h1>
+    <p>
+      “I love coding ever since I took up I started to learning the subject ICT, I’ve built some
+      cool projects. I’ve also picked up HTML, CSS & JavaScript”
+    </p>
+    <div class="projects">
+      <div class="project">
+        <img src="https://thomasdigital.com/wp-content/uploads/2017/01/purpose-of-a-website2.fw_.png" alt="project1" />
+        <h3>My first webpage</h3>
+        <p>I built my own webpage for the first time HTML & CSS.</p>
+        <div class="styled-link"><a href="">SEE PROJECT</a></div>
+      </div>
+      <div class="project">
+        <img
+          src="data:image/jpeg;base64,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"
+          alt="project1" />
+        <h3>Stay Safe from COVID</h3>
+        <p>I created a webpage on safety measures to prevent COVID.</p>
+        <div class="styled-link"><a href="">SEE PROJECT</a></div>
+      </div>
+      <div class="project">
+        <img src="https://www.sciencenews.org/wp-content/uploads/2018/05/050718_EC_numbers_feat.jpg" alt="project1" />
+        <h3>Guess it master</h3>
+        <p>I built guess the number game using JavaScript.</p>
+        <div class="styled-link"><a href="">SEE PROJECT</a></div>
+      </div>
+      <div class="project">
+        <img
+          src="https://cbsnews2.cbsistatic.com/hub/i/r/2010/12/03/79ed9c0e-a644-11e2-a3f0-029118418759/thumbnail/1200x630/cfe704cb9840686e553d1ae1197d1466/365073.jpg"
+          alt="project1" />
+        <h3>My Cartoon Page</h3>
+        <p>For the love of cartoons, I built a webpage.</p>
+        <div class="styled-link"><a href="">SEE PROJECT</a></div>
+      </div>
+      <div class="project">
+        <img
+          src="https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F550349%2Fglu-mobile.jpg&w=700&op=resize"
+          alt="project1" />
+        <h3>Game</h3>
+        <p>I built a game using HTML, CSS & JS.</p>
+        <div class="styled-link"><a href="">SEE PROJECT</a></div>
+      </div>
+      <div class="project">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRlQmdrTYGhn12uk7xsfFiM-dkS3CdBxqOWoQ&usqp=CAU"
+          alt="project1" />
+        <h3>My First Product Idea</h3>
+        <p>I’ve created a website for my first product idea.</p>
+        <div class="styled-link"><a href="">SEE PROJECT</a></div>
+      </div>
+    </div>
+  </section>
+  <section id="achievements">
+    <h1 class="flex-centered">My Achievements</h1>
+    <ul class="flex-centered">
+      <li>Won 2nd price in Creative writing and 1st in painting competitions</li>
+      <li>
+        I love the subject biology and do quite well in most of m quizes.
+      </li>
+      <li>
+        I like taking part in social events, and took place in a school event called Ryan Modal United Nations and got a
+        certificate. I will take part this year too!
+      </li>
+      <li>
+        I'm a very enthusiast learners. I took part in several interschool
+        competitions
+      <li>
+        I also love sports like and took part in minithon winning the 4th place amongst 26 different schools.
+      </li>
+      </li>
+    </ul>
+  </section>
+  <section id="hobbies" class="flex-centered">
+    <h1>My Hobbies</h1>
+    <p>
+      When I’m free, you’ll find me doing one of these. Honestly, I hate to
+      laze around!
+    </p>
+    <div class="image-grid">
+      <div class="column">
+        <img src="https://i1.faceprep.in/prograd-junior/portfolio/hobby1.png" alt="hobby1" />
+        <img src="https://i1.faceprep.in/prograd-junior/portfolio/hobby2.png" alt="hobby2" />
+      </div>
+      <div class="column">
+        <img src="https://i.ndtvimg.com/i/2016-07/television-generic_650x400_81469541532.jpg" alt="hobby3" />
+      </div>
+      <div class="column">
+        <img src="https://i1.faceprep.in/prograd-junior/portfolio/hobby4.png" alt="hobby4" />
+        <img src="https://i1.faceprep.in/prograd-junior/portfolio/hobby5.png" alt="hobby5" />
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="flex-centered">
+    <h1>Contact</h1>
+    <p>
+      <a href="mailto:akankshyasantosh2007@gmail" id="email"></a>akankshyasantosh2007@gmail
+    </p>
+    <p>
+      All rights reserved. Made by ProGrad Junior.<br>
+      THANK YOU!🙏💗
+    </p>
+  </section>
+  <script src="app.js"></script>
+</body>
+
+</html>
